@@ -23,5 +23,7 @@ workflow.add_edge("sql_executor", END)
 app = workflow.compile()
 results = app.invoke({"query": "Where is shipment SHIP-12345?"})
 
+
+
 print(results["sql_query"])
 print(results["query_result"])
