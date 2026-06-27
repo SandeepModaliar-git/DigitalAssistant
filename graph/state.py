@@ -7,5 +7,6 @@ class AgentState(TypedDict):
     query: str
     schema_context: str
     sql_query: str
+    query_result: list[dict[str, str]]
 
 
