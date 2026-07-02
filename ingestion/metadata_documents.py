@@ -36,6 +36,19 @@ documents = [
         "type": "column",
         "text": {
             "table": "shipment_tracking",
+            "column": "reroute_mode_if_any_disruption",
+            "description": "Rerouting the shipments if any potential disruptions.",
+            "aliases": [
+                "re-routing mode",
+                "disrupted or distorted shipment preferred mode for rerouting"
+            ]
+        }
+    },
+    {
+        "id": "shipment_tracking_status",
+        "type": "column",
+        "text": {
+            "table": "shipment_tracking",
             "column": "status",
             "description": "Current shipment status.",
             "aliases": [
